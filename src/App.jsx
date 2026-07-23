@@ -59,12 +59,12 @@ const slides = [
   {
     id: 2,
     image: img2,
-    location: { en: "RS Puram Roads", ta: "ஆர்.எஸ்.புரம் சாலைகள்" },
-    title: { en: "Our First Bike Ride", ta: "நம் முதல் பைக் பயணம்" },
-    date: { en: "Wind in Our Hair", ta: "காற்றில் பறந்த கூந்தல்" },
+    location: { en: "Sungam Bus Stop", ta: "சுங்கம் பேருந்து நிறுத்தம்" },
+    title: { en: "Our First Ride Together", ta: "நமது முதல் பைக் பயணம்" },
+    date: { en: "Office Ride & Sungam", ta: "அலுவலகப் பயணம் & சுங்கம்" },
     description: {
-      en: "The wind in our hair, the city zooming past, and that sweet, nervous excitement of riding together for the first time. Every turn felt like a new chapter unfolding.",
-      ta: "காற்று நம்மைத் தழுவிச் செல்ல, நகரம் பின்னோக்கி ஓட, முதல்முறையாக ஒன்றாகப் பயணித்த அந்த நடுக்கமும் பரவசமும் கலந்த தருணம். ஒவ்வொரு திருப்பமும் ஒரு புது அத்தியாயத்தை எழுதியது."
+      en: "The first time you asked me to join you on your bike to head to the office together. That sweet, nervous excitement of riding side-by-side, followed by you dropping me off at the Sungam bus stop later that day. A simple journey that marked the beginning of our daily shared moments.",
+      ta: "அலுவலகத்திற்கு ஒன்றாகச் செல்ல உனது வண்டியில் என்னை வரும்படி நீ முதன்முதலாகக் கேட்ட தருணம். அந்தப் பதற்றமும் மகிழ்ச்சியும் நிறைந்த பயணம், அன்றைய தினமே என்னை நீ சுங்கம் பேருந்து நிறுத்தத்தில் இறக்கிவிட்டது. நம் தினசரி வாழ்க்கையை அழகாக்கிய ஒரு எளிய பயணம்."
     },
     doodle: "bike",
     x: 130, y: 20
