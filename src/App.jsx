@@ -89,7 +89,7 @@ const slides = [
     title: { en: "Random Meet at Race Course", ta: "ரேஸ் கோர்ஸ் சந்திப்பு" },
     date: { en: "Accompanied by Friend", ta: "நண்பர்களுடன் ஒரு சந்திப்பு" },
     description: {
-      en: "Just a random meet at Race Course, accompanied by your friend near you. Even with them around, it was filled with good moments—taking pictures of us, laughter-filled conversations, and teasing you along the way. Such a fun and sweet day.",
+      en: "Just a random meet at Race Course, accompanied by your friend near you. Even with her around, it was filled with good moments—taking pictures of us, laughter-filled conversations, and teasing you along the way. Such a fun and sweet day.",
       ta: "உனது தோழியுடன் ரேஸ் கோர்ஸில் நாம் எதேச்சையாகச் சந்தித்த தருணம். தோழி அருகில் இருந்தபோதிலும், அது பல அழகான நினைவுகள் நிறைந்ததாக இருந்தது—நமது புகைப்படங்கள், சிரிப்பு உரையாடல்கள் மற்றும் வழியெங்கும் உன்னைக் கிண்டல் செய்தது என மிகவும் மகிழ்ச்சியான நாள்."
     },
     doodle: "tree",
