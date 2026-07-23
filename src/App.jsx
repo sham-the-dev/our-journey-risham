@@ -971,20 +971,20 @@ function App() {
                     </div>
                     <div className="letter">
                       <h3 className="letter-title">
-                        {lang === 'en' ? 'Dear Person,' : 'என் அன்பானவளுக்கு,'}
+                        {lang === 'en' ? 'Dear Risha,' : 'அன்புள்ள ரிஷா,'}
                       </h3>
                       <p className="letter-body" style={{ whiteSpace: 'pre-line' }}>
                         {lang === 'en' 
                           ? `Happy Birthday! 🎂✨
                           
-                          Looking back at our sketches and the roads we travelled, from RS Puram to the Kovai sign, I cherish every single kilometer we rode together.
+                          Looking back at our sketches and the roads we travelled, from RS Puram to the Kovai spot, I cherish every single kilometer we rode together.
                           
                           You bring so much joy into my life. I hope this birthday brings you all the happiness, laughter, and sweets you deserve. Here's to more rides, more dates, and more memories in Kovai! 💕
                           
                           With Love, Always.`
                           : `இனிய பிறந்தநாள் நல்வாழ்த்துகள்! 🎂✨
 
-                          நம் வரைபடங்களையும் நாம் பயணித்த கோவைச் சாலைகளையும் திரும்பிப் பார்க்கையில், ஆர்.எஸ்.புரம் முதல் கோவை பலகை வரை நாம் இணைந்து பயணித்த ஒவ்வொரு கிலோமீட்டரையும் நான் பொக்கிஷமாக நினைக்கிறேன்.
+                          நம் வரைபடங்களையும் நாம் பயணித்த கோவைச் சாலைகளையும் திரும்பிப் பார்க்கையில், ஆர்.எஸ்.புரம் முதல் கோவை இடம் வரை நாம் இணைந்து பயணித்த ஒவ்வொரு கிலோமீட்டரையும் நான் பொக்கிஷமாக நினைக்கிறேன்.
 
                           என் வாழ்க்கையில் இவ்வளவு மகிழ்ச்சியைக் கொண்டு வந்ததற்கு நன்றி. இந்த பிறந்தநாள் உனக்கு எல்லா மகிழ்ச்சியையும், சிரிப்பையும், இனிப்புகளையும் தரட்டும். இன்னும் பல பயணங்கள், பல தேதிகள், பல அழகான கோவை நினைவுகளுக்கு! 💕
 
@@ -1023,20 +1023,20 @@ function App() {
                       </div>
                       <div className="letter">
                         <h3 className="letter-title">
-                          {lang === 'en' ? 'Dear Person,' : 'என் அன்பானவளுக்கு,'}
+                          {lang === 'en' ? 'Dear Risha,' : 'அன்புள்ள ரிஷா,'}
                         </h3>
                         <p className="letter-body" style={{ whiteSpace: 'pre-line' }}>
                           {lang === 'en' 
                             ? `Happy Birthday! 🎂✨
                             
-                            Looking back at our sketches and the roads we travelled, from RS Puram to the Kovai sign, I cherish every single kilometer we rode together.
+                            Looking back at our sketches and the roads we travelled, from RS Puram to the Kovai spot, I cherish every single kilometer we rode together.
                             
                             You bring so much joy into my life. I hope this birthday brings you all the happiness, laughter, and sweets you deserve. Here's to more rides, more dates, and more memories in Kovai! 💕
                             
                             With Love, Always.`
                             : `இனிய பிறந்தநாள் நல்வாழ்த்துகள்! 🎂✨
 
-                            நம் வரைபடங்களையும் நாம் பயணித்த கோவைச் சாலைகளையும் திரும்பிப் பார்க்கையில், ஆர்.எஸ்.புரம் முதல் கோவை பலகை வரை நாம் இணைந்து பயணித்த ஒவ்வொரு கிலோமீட்டரையும் நான் பொக்கிஷமாக நினைக்கிறேன்.
+                            நம் வரைபடங்களையும் நாம் பயணித்த கோவைச் சாலைகளையும் திரும்பிப் பார்க்கையில், ஆர்.எஸ்.புரம் முதல் கோவை இடம் வரை நாம் இணைந்து பயணித்த ஒவ்வொரு கிலோமீட்டரையும் நான் பொக்கிஷமாக நினைக்கிறேன்.
 
                             என் வாழ்க்கையில் இவ்வளவு மகிழ்ச்சியைக் கொண்டு வந்ததற்கு நன்றி. இந்த பிறந்தநாள் உனக்கு எல்லா மகிழ்ச்சியையும், சிரிப்பையும், இனிப்புகளையும் தரட்டும். இன்னும் பல பயணங்கள், பல தேதிகள், பல அழகான கோவை நினைவுகளுக்கு! 💕
 
