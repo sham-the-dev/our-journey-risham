@@ -112,11 +112,11 @@ const slides = [
     id: 6,
     image: img6,
     location: { en: "V O C Park", ta: "வி.ஓ.சி பூங்கா" },
-    title: { en: "First Park Date", ta: "முதல் பூங்கா சந்திப்பு" },
-    date: { en: "Slowing Down Time", ta: "நின்றுகொண்ட நேரம்" },
+    title: { en: "First Park Date Together", ta: "முதல் பூங்கா சந்திப்பு" },
+    date: { en: "Freshness & Fun", ta: "புத்துணர்ச்சியும் விளையாட்டுத்தனமும்" },
     description: {
-      en: "Sitting on a wooden bench, surrounded by green lawns and the quiet rustle of leaves. The world slowed down, and for a few hours, it was just you and me.",
-      ta: "பச்சை புல்வெளிகள் மற்றும் இலைகளின் சலசலப்புக்கு மத்தியில் ஒரு மர பெஞ்சில் அமர்ந்திருந்தோம். உலகம் தற்காலிகமாக நின்று போனது, சில மணிநேரங்கள் நமக்கு மட்டுமே சொந்தமானது."
+      en: "Our very first park date together, sharing the beautiful freshness of the park environment. We enjoyed ourselves like two kids on a vacation, filling the afternoon with endless talking and laughter on that wooden bench.",
+      ta: "நம்முடைய முதல் பூங்கா சந்திப்பு, பூங்காவின் அழகான புத்துணர்ச்சியோடு. விடுமுறையில் இருக்கும் இரண்டு குழந்தைகளைப் போல நாம் இருவரும் எல்லையற்ற பேச்சுகளாலும் சிரிப்புகளாலும் அந்த மர பெஞ்சில் அமர்ந்து மகிழ்ந்தோம்."
     },
     doodle: "flower",
     x: 450, y: 20
