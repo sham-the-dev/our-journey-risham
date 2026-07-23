@@ -176,7 +176,7 @@ const slides = [
   {
     id: 11,
     image: img11,
-    location: { en: "Gandhipuram Food Stall", ta: "முட்டை பேல் கடை" },
+    location: { en: "Roadside Snacks", ta: "சாலையோர உணவு" },
     title: { en: "Discovering Muttai Bhel Together", ta: "முட்டை பேல் ருசித்தது" },
     date: { en: "Coimbatore Delicacy", ta: "கோவை ஸ்பெஷல்" },
     description: {
