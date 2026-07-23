@@ -150,12 +150,12 @@ const slides = [
   {
     id: 9,
     image: img9,
-    location: { en: "Bypass Road", ta: "பைபாஸ் சாலை" },
+    location: { en: "Night Road Travel", ta: "இரவு நேரப் பயணம்" },
     title: { en: "Under the Starlit Sky", ta: "விண்மீன்கள் நிறைந்த வானின் கீழ்" },
     date: { en: "Midnight Cruising", ta: "நள்ளிரவுப் பயணம்" },
     description: {
       en: "Cruising down the city roads at night under the cool breeze, your arms wrapped around me. Nothing else mattered but the road ahead and the warmth of your embrace.",
-      ta: "குளிர்ந்த காற்றில் நள்ளிரவு நேரத்தில் உனது கைகள் என்னை இறுக்கமாக அணைக்க கோவை பைபாஸ் சாலையில் பயணித்தது. நாம் செல்லும் பாதையும் உன் உடலின் வெப்பமும் மட்டுமே அப்போது எனக்குத் தேவைப்பட்டது."
+      ta: "குளிர்ந்த காற்றில் இரவு நேரத்தில் உனது கைகள் என்னை இறுக்கமாக அணைத்துக்கொள்ள வண்டியில் பயணித்த தருணம். நாம் செல்லும் பாதையும் உன் உடலின் வெப்பமும் மட்டுமே அப்போது எனக்குத் தேவைப்பட்டது."
     },
     doodle: "bike",
     x: 690, y: 40
