@@ -63,8 +63,8 @@ const slides = [
     title: { en: "Our First Ride Together", ta: "நமது முதல் பைக் பயணம்" },
     date: { en: "Office Ride & Sungam", ta: "அலுவலகப் பயணம் & சுங்கம்" },
     description: {
-      en: "The first time you asked me to join you on your bike to head to the office together. That sweet, nervous excitement of riding side-by-side, followed by you dropping me off at the Sungam bus stop later that day. A simple journey that marked the beginning of our daily shared moments.",
-      ta: "அலுவலகத்திற்கு ஒன்றாகச் செல்ல உனது வண்டியில் என்னை வரும்படி நீ முதன்முதலாகக் கேட்ட தருணம். அந்தப் பதற்றமும் மகிழ்ச்சியும் நிறைந்த பயணம், அன்றைய தினமே என்னை நீ சுங்கம் பேருந்து நிறுத்தத்தில் இறக்கிவிட்டது. நம் தினசரி வாழ்க்கையை அழகாக்கிய ஒரு எளிய பயணம்."
+      en: "The first time I asked you to join me on my bike to head to the office together. That sweet, nervous excitement of riding side-by-side, followed by me dropping you off at the Sungam bus stop later that day. A simple journey that marked the beginning of our daily shared moments.",
+      ta: "அலுவலகத்திற்கு ஒன்றாகச் செல்ல எனது வண்டியில் உன்னை வரும்படி நான் முதன்முதலாகக் கேட்ட தருணம். அந்தப் பதற்றமும் மகிழ்ச்சியும் நிறைந்த பயணம், அன்றைய தினமே உன்னை நான் சுங்கம் பேருந்து நிறுத்தத்தில் இறக்கிவிட்டது. நம் தினசரி வாழ்க்கையை அழகாக்கிய ஒரு எளிய பயணம்."
     },
     doodle: "bike",
     x: 130, y: 20
