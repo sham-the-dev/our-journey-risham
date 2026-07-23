@@ -98,7 +98,7 @@ const slides = [
   {
     id: 5,
     image: img5,
-    location: { en: "Race Course Eateries", ta: "ரேஸ் கோர்ஸ் சாட் கடை" },
+    location: { en: "Gandhipuram Eateries", ta: "காந்திபுரம் சாட் கடை" },
     title: { en: "Chat & Vadapav Date", ta: "சாட் & வடாபாவ் சந்திப்பு" },
     date: { en: "Selfies & Drop-offs", ta: "செல்ஃபியும் விடைபெறலும்" },
     description: {
