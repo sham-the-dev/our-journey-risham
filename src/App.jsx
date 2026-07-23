@@ -981,14 +981,16 @@ function App() {
                           
                           You bring so much joy into my life. I hope this birthday brings you all the happiness, laughter, and sweets you deserve. Here's to more rides, more dates, and more memories in Kovai! 💕
                           
-                          With Love, Always.`
+                          With Love, Always.
+                          Unnodaya yaarukkum theriyatha uravu 👀`
                           : `இனிய பிறந்தநாள் நல்வாழ்த்துகள்! 🎂✨
 
                           நம் வரைபடங்களையும் நாம் பயணித்த கோவைச் சாலைகளையும் திரும்பிப் பார்க்கையில், ஆர்.எஸ்.புரம் முதல் கோவை இடம் வரை நாம் இணைந்து பயணித்த ஒவ்வொரு கிலோமீட்டரையும் நான் பொக்கிஷமாக நினைக்கிறேன்.
 
                           என் வாழ்க்கையில் இவ்வளவு மகிழ்ச்சியைக் கொண்டு வந்ததற்கு நன்றி. இந்த பிறந்தநாள் உனக்கு எல்லா மகிழ்ச்சியையும், சிரிப்பையும், இனிப்புகளையும் தரட்டும். இன்னும் பல பயணங்கள், பல தேதிகள், பல அழகான கோவை நினைவுகளுக்கு! 💕
 
-                          என்றும் உன்னன்புடன்.`
+                          என்றும் உன்னன்புடன்,
+                          உன்னோட யாருக்கும் தெரியாத உறவு 👀`
                         }
                       </p>
                     </div>
@@ -1033,14 +1035,16 @@ function App() {
                             
                             You bring so much joy into my life. I hope this birthday brings you all the happiness, laughter, and sweets you deserve. Here's to more rides, more dates, and more memories in Kovai! 💕
                             
-                            With Love, Always.`
+                            With Love, Always.
+                            Unnodaya yaarukkum theriyatha uravu 👀`
                             : `இனிய பிறந்தநாள் நல்வாழ்த்துகள்! 🎂✨
 
                             நம் வரைபடங்களையும் நாம் பயணித்த கோவைச் சாலைகளையும் திரும்பிப் பார்க்கையில், ஆர்.எஸ்.புரம் முதல் கோவை இடம் வரை நாம் இணைந்து பயணித்த ஒவ்வொரு கிலோமீட்டரையும் நான் பொக்கிஷமாக நினைக்கிறேன்.
 
                             என் வாழ்க்கையில் இவ்வளவு மகிழ்ச்சியைக் கொண்டு வந்ததற்கு நன்றி. இந்த பிறந்தநாள் உனக்கு எல்லா மகிழ்ச்சியையும், சிரிப்பையும், இனிப்புகளையும் தரட்டும். இன்னும் பல பயணங்கள், பல தேதிகள், பல அழகான கோவை நினைவுகளுக்கு! 💕
 
-                            என்றும் உன்னன்புடன்.`
+                            என்றும் உன்னன்புடன்,
+                            உன்னோட யாருக்கும் தெரியாத உறவு 👀`
                           }
                         </p>
                       </div>
