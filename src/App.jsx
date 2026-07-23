@@ -312,7 +312,19 @@ function App() {
   // Track window resizing for single-page vs double-page layouts
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 1024)
+      const mobile = window.innerWidth < 1024
+      setIsMobile(mobile)
+      if (!mobile) {
+        setCurrentPage((prev) => {
+          // If we are on page 26 (mobile last page), align it to 25 (desktop last spread)
+          if (prev >= 26) return 25
+          // Ensure it's an odd page on desktop (except Cover page 0)
+          if (prev > 0 && prev % 2 === 0) {
+            return prev - 1
+          }
+          return prev
+        })
+      }
     }
     handleResize()
     window.addEventListener('resize', handleResize)
@@ -397,16 +409,19 @@ function App() {
 
   const nextPage = useCallback(() => {
     setCurrentPage((prev) => {
-      const step = window.innerWidth < 1024 ? 1 : 2
+      const isMobileView = window.innerWidth < 1024
+      const step = isMobileView ? 1 : 2
       let target = prev + step
 
       // Align target for desktop to be odd so spreads stay aligned (Page 1/2, 3/4, etc.)
-      if (window.innerWidth >= 1024 && target > 0 && target % 2 === 0) {
+      if (!isMobileView && target > 0 && target % 2 === 0) {
         target = target - 1
       }
 
       if (prev === 0) target = 1
-      if (target > 26) return 26
+      
+      const maxPage = isMobileView ? 26 : 25
+      if (target > maxPage) return maxPage
 
       playClickSound()
       playPageTurnSound()
@@ -416,11 +431,12 @@ function App() {
 
   const prevPage = useCallback(() => {
     setCurrentPage((prev) => {
-      const step = window.innerWidth < 1024 ? 1 : 2
+      const isMobileView = window.innerWidth < 1024
+      const step = isMobileView ? 1 : 2
       let target = prev - step
 
       // Align target for desktop to be odd so spreads stay aligned
-      if (window.innerWidth >= 1024 && target > 0 && target % 2 === 0) {
+      if (!isMobileView && target > 0 && target % 2 === 0) {
         target = target - 1
       }
 
@@ -693,7 +709,7 @@ function App() {
           </button>
         )}
         
-        {currentPage < 26 && currentPage > 0 && (
+        {currentPage < (isMobile ? 26 : 25) && currentPage > 0 && (
           <button onClick={nextPage} className="nav-arrow nav-arrow-right pulse-arrow" aria-label="Next Page">
             <ArrowRight size={44} strokeWidth={1.5} />
           </button>
@@ -1124,9 +1140,9 @@ function App() {
                 )}
               </div>
 
-              <div className="book-footer" style={{ width: '100%' }}>
+              <div className="book-footer" style={{ width: '100%', marginTop: '1rem' }}>
                 <span className="page-number">Page 26</span>
-                <span className="page-number">{lang === 'en' ? 'Make a Wish' : 'ஒரு ஆசையை நினைக்கவும்'}</span>
+                <span className="page-number" style={{ textAlign: 'right' }}>{lang === 'en' ? 'Make a Wish' : 'ஒரு ஆசையை நினைக்கவும்'}</span>
               </div>
             </div>
           </div>
@@ -1135,7 +1151,7 @@ function App() {
       </div>
 
       {/* Swipe guides */}
-      {currentPage > 0 && currentPage < 26 && (
+      {currentPage > 0 && currentPage < (isMobile ? 26 : 25) && (
         <div className="nav-instructions">
           <span>
             {lang === 'en' 
