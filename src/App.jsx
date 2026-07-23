@@ -111,12 +111,12 @@ const slides = [
   {
     id: 6,
     image: img6,
-    location: { en: "V O C Park", ta: "வி.ஓ.சி பூங்கா" },
+    location: { en: "Park", ta: "பூங்கா" },
     title: { en: "First Park Date Together", ta: "முதல் பூங்கா சந்திப்பு" },
     date: { en: "Freshness & Fun", ta: "புத்துணர்ச்சியும் விளையாட்டுத்தனமும்" },
     description: {
-      en: "Our very first park date together, sharing the beautiful freshness of the park environment. We enjoyed ourselves like two kids on a vacation, filling the afternoon with endless talking and laughter on that wooden bench.",
-      ta: "நம்முடைய முதல் பூங்கா சந்திப்பு, பூங்காவின் அழகான புத்துணர்ச்சியோடு. விடுமுறையில் இருக்கும் இரண்டு குழந்தைகளைப் போல நாம் இருவரும் எல்லையற்ற பேச்சுகளாலும் சிரிப்புகளாலும் அந்த மர பெஞ்சில் அமர்ந்து மகிழ்ந்தோம்."
+      en: "Our very first park date together, sharing the beautiful freshness of the park environment. We enjoyed ourselves like two kids on a vacation, filling the evening with endless talking and laughter on that wooden bench.",
+      ta: "நம்முடைய முதல் பூங்கா சந்திப்பு, பூங்காவின் அழகான புத்துணர்ச்சியோடு. விடுமுறையில் இருக்கும் இரண்டு குழந்தைகளைப் போல நாம் இருவரும் மாலையில் எல்லையற்ற பேச்சுகளாலும் சிரிப்புகளாலும் அந்த மர பெஞ்சில் அமர்ந்து மகிழ்ந்தோம்."
     },
     doodle: "flower",
     x: 450, y: 20
@@ -124,12 +124,12 @@ const slides = [
   {
     id: 7,
     image: img7,
-    location: { en: "V O C Park Bench", ta: "பூங்கா மரப்பலகை" },
+    location: { en: "Park Bench", ta: "பூங்கா மரப்பலகை" },
     title: { en: "Hands Intertwined", ta: "விரல்கள் பிணைந்த தருணம்" },
     date: { en: "A Deeper Connection", ta: "ஆழமான பிணைப்பு" },
     description: {
       en: "Our second park visit brought serious talks, deeper understanding, and that unforgettable moment—our fingers tracing, finding their fit, and holding hands for the first time.",
-      ta: "நமது இரண்டாவது பூங்கா சந்திப்பு ஆழமான உரையாடல்களையும், பரஸ்பர புரிதலையும் தந்தது. மறக்க முடியாத அந்த நொடி—நம் விரல்கள் மெதுவாக ஒன்றிணைந்து முதல்முறையாக கைகோர்த்த தருணம்."
+      ta: "நமது இரண்டாவது பூங்கா சந்திப்பு ஆழமான உரையாடல்களையும், பரஸ்பர புரிதலையும் தந்தது. மறக்க முடியாத அந்த நொடி—நம் விரல்கள் மெதுவாக ஒன்றिணைந்து முதல்முறையாக கைகோர்த்த தருணம்."
     },
     doodle: "hand",
     x: 530, y: 30
