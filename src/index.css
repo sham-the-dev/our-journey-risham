@@ -1022,7 +1022,7 @@ body {
 
 @media (max-width: 1023px) {
   .envelope-container {
-    max-width: 88%;
+    width: 320px;
     margin: 20px auto;
   }
   .envelope {
@@ -1159,7 +1159,7 @@ body {
 }
 
 .envelope.open .letter {
-  transform: translateY(-130px) scale(1.01);
+  transform: translateY(-130px) scale(1.01) translateZ(5px);
   z-index: 7;
 }
 
@@ -1169,7 +1169,7 @@ body {
     height: 190px;
   }
   .envelope.open .letter {
-    transform: translateY(-110px) scale(1.01);
+    transform: translateY(-110px) scale(1.01) translateZ(5px);
   }
 }
 
@@ -1201,6 +1201,24 @@ body {
   .letter-body {
     font-size: 1.2rem;
     line-height: 24px;
+  }
+}
+
+.cake-instructions {
+  font-family: var(--font-hand);
+  font-size: 1.45rem;
+  color: var(--text-dark);
+  text-align: center;
+  max-width: 350px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 15px auto;
+}
+
+@media (max-width: 1023px) {
+  .cake-instructions {
+    font-size: 1.25rem;
+    margin: 10px auto;
   }
 }
 
@@ -1520,7 +1538,8 @@ body {
 .lang-ta .polaroid-caption,
 .lang-ta .nav-instructions,
 .lang-ta .page-number,
-.lang-ta .journey-map-title {
+.lang-ta .journey-map-title,
+.lang-ta .cake-instructions {
   font-family: var(--font-sans) !important;
   font-weight: 500 !important;
 }
@@ -1537,8 +1556,8 @@ body {
 }
 
 .lang-ta .journal-text {
-  font-size: 1.25rem;
-  line-height: 1.6;
+  font-size: 1.15rem;
+  line-height: 28px; /* Aligned with desktop note-lined background size (28px) */
 }
 
 @media (max-width: 1023px) {
@@ -1565,18 +1584,18 @@ body {
 
   .lang-ta .note-lined {
     padding: 4px 8px 4px 34px !important;
-    line-height: 20px !important;
-    background-size: 100% 20px !important;
+    line-height: 26px !important; /* Increased to prevent character overlaps */
+    background-size: 100% 26px !important; /* Match text line-height */
     background-image: 
       linear-gradient(90deg, transparent 24px, #fda4af 24px, #fda4af 26px, transparent 26px),
       linear-gradient(#f8fafc 95%, #ddd6fe 95%) !important;
     background-position: 0 0, 0 4px !important;
-    max-height: 155px !important;
+    max-height: 190px !important; /* Match English note container height for readability */
   }
 
   .lang-ta .journal-text {
-    font-size: 1.05rem !important;
-    line-height: 20px !important;
+    font-size: 1.1rem !important; /* Balanced font size for readability */
+    line-height: 26px !important; /* Align to the 26px notepad background lines */
   }
 
   .lang-ta .journey-map-title {
@@ -1584,18 +1603,31 @@ body {
   }
 
   .lang-ta .letter-body {
-    font-size: 1.05rem !important;
-    line-height: 1.5 !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important; /* Balanced spacing for complex Tamil characters */
   }
 
   .lang-ta .letter {
-    height: 175px !important;
-    padding: 8px 12px !important;
+    height: 190px !important; /* Match English size for consistency */
+    padding: 12px 10px !important;
   }
   
   .lang-ta .letter-title {
-    font-size: 1.45rem !important;
+    font-size: 1.25rem !important;
     margin-bottom: 4px;
+  }
+
+  .lang-ta .nav-instructions {
+    font-size: 0.85rem !important;
+    margin-top: 10px !important;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .lang-ta .cake-instructions {
+    font-size: 1.05rem !important;
+    line-height: 1.4 !important;
+    margin: 8px auto !important;
   }
 }
 

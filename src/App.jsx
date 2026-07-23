@@ -1037,7 +1037,7 @@ function App() {
                   <h2 className="journal-title" style={{ textAlign: 'center' }}>
                     {lang === 'en' ? 'Make a Wish!' : 'ஒரு ஆசையை நினைத்துக் கொள்!'}
                   </h2>
-                  <p style={{ fontFamily: 'var(--font-hand)', fontSize: '1.45rem', color: 'var(--text-dark)', textAlign: 'center', maxWidth: '350px', lineHeight: 1.4, fontWeight: 'bold' }}>
+                  <p className="cake-instructions">
                     {candles.every(c => c === false) 
                       ? (lang === 'en' ? "Yay! Happy Birthday! 🎉✨" : "ஹேப்பி பர்த்டே! 🎉✨")
                       : (lang === 'en' ? "Click the candle flames to blow them out and celebrate!" : "மெழுகுவர்த்தி தீபங்களை அணைத்துக் கொண்டாட கிளிக் செய்யவும்!")
@@ -1083,14 +1083,14 @@ function App() {
         {/* 4. Birthday Cake Wish Page (Only shown on mobile single slide) */}
         {currentPage === 26 && isMobile && (
           <div className="book page-anim-enter-active">
-            <div className="page right-page mobile-single" style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <div className="page right-page mobile-single" style={{ justifyContent: 'center' }}>
               <div className="coffee-stain" style={{ bottom: '10%', right: '10%' }}></div>
               
               <h2 className="journal-title" style={{ textAlign: 'center' }}>
                 {lang === 'en' ? 'Make a Wish!' : 'ஒரு ஆசையை நினைத்துக் கொள்!'}
               </h2>
               
-              <p style={{ fontFamily: 'var(--font-hand)', fontSize: '1.45rem', color: 'var(--text-dark)', textAlign: 'center', maxWidth: '350px', lineHeight: 1.4, fontWeight: 'bold', margin: '10px 0' }}>
+              <p className="cake-instructions mobile-cake-instructions">
                 {candles.every(c => c === false) 
                   ? (lang === 'en' ? "Yay! Happy Birthday! 🎉✨" : "ஹேப்பி பர்த்டே! 🎉✨")
                   : (lang === 'en' ? "Click the candle flames to blow them out and celebrate!" : "மெழுகுவர்த்தி தீபங்களை அணைத்துக் கொண்டாட கிளிக் செய்யவும்!")
@@ -1124,7 +1124,7 @@ function App() {
                 )}
               </div>
 
-              <div className="book-footer">
+              <div className="book-footer" style={{ width: '100%' }}>
                 <span className="page-number">Page 26</span>
                 <span className="page-number">{lang === 'en' ? 'Make a Wish' : 'ஒரு ஆசையை நினைக்கவும்'}</span>
               </div>
@@ -1136,7 +1136,7 @@ function App() {
 
       {/* Swipe guides */}
       {currentPage > 0 && currentPage < 26 && (
-        <div className="nav-instructions" style={{ color: '#701a75', fontSize: '1.15rem', marginTop: 15 }}>
+        <div className="nav-instructions">
           <span>
             {lang === 'en' 
               ? 'Swipe or use Arrow Keys to turn pages' 
