@@ -124,7 +124,7 @@ const slides = [
   {
     id: 7,
     image: img7,
-    location: { en: "Park Bench", ta: "பூங்கா மரப்பலகை" },
+    location: { en: "Park", ta: "பூங்கா" },
     title: { en: "Hands Intertwined", ta: "விரல்கள் பிணைந்த தருணம்" },
     date: { en: "A Deeper Connection", ta: "ஆழமான பிணைப்பு" },
     description: {
