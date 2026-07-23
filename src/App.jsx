@@ -98,12 +98,12 @@ const slides = [
   {
     id: 5,
     image: img5,
-    location: { en: "Race Course Eateries", ta: "சாட் கடை" },
-    title: { en: "Our First Chat Shop Date", ta: "முதல் சாட் கடை சந்திப்பு" },
-    date: { en: "Spicy & Sweet", ta: "காரமும் இனிப்பும்" },
+    location: { en: "Race Course Eateries", ta: "ரேஸ் கோர்ஸ் சாட் கடை" },
+    title: { en: "Chat & Vadapav Date", ta: "சாட் & வடாபாவ் சந்திப்பு" },
+    date: { en: "Selfies & Drop-offs", ta: "செல்ஃபியும் விடைபெறலும்" },
     description: {
-      en: "Sharing spicy plates of chat, fighting over the last pani puri, and realizing that food tastes so much better when shared with you. The spice of life indeed!",
-      ta: "காரசாரமான சாட் தட்டுகளைப் பகிர்ந்து கொண்டு, கடைசி பானி பூரிக்காக சண்டையிட்டு, உணவு உன்னுடன் பகிரும் போது இன்னும் சுவையாக மாறுவதை உணர்ந்த தருணம்."
+      en: "Sharing plates of chat and vadapav together, talking about everything under the sun, and capturing a sweet selfie together before dropping you off. Food and moments always feel better when shared with you.",
+      ta: "சாட் தட்டுகளையும் வடாபாவையும் ஒன்றாகப் பகிர்ந்து கொண்டு, உன்னை இறக்கிவிடும் முன்பு ஒரு அழகான செல்ஃபி எடுத்துக்கொண்ட தருணம். உன்னோடு பகிரும்போதுதான் உணவும் நினைவுகளும் இன்னும் சுவையானதாக மாறுகின்றன."
     },
     doodle: "food",
     x: 370, y: 35
