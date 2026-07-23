@@ -76,8 +76,8 @@ const slides = [
     title: { en: "Gandhipuram Drop-offs & Mirror Selfies", ta: "காந்திபுரம் பயணங்கள் & செல்ஃபிகள்" },
     date: { en: "Road of Little Moments", ta: "சின்னஞ்சிறு நினைவுகள் நிறைந்த சாலை" },
     description: {
-      en: "Dropping you off at the Gandhipuram bus stop, capturing random mirror selfies on shop windows along the way. The road itself felt like it was carrying all of our sweet, little moments together, capturing the pure joy of being side-by-side.",
-      ta: "உன்னை காந்திபுரம் பேருந்து நிறுத்தத்தில் இறக்கிவிடுவது, செல்லும் வழியில் கடை ஜன்னல்களில் ரேண்டம் கண்ணாடி செல்ஃபிகளை எடுப்பது. நாம் பயணித்த அந்தச் சாலை நம்முடைய சின்னஞ்சிறு அழகான நினைவுகளை எல்லாம் சுமந்து செல்வது போல் இருந்தது, நமது அருகாமையின் தூய மகிழ்ச்சியைப் பதிவு செய்தது."
+      en: "Dropping you off at the Gandhipuram bus stop, capturing random selfies in our vehicle's mirror along the way. The road itself felt like it was carrying all of our sweet, little moments together, capturing the pure joy of being side-by-side.",
+      ta: "உன்னை காந்திபுரம் பேருந்து நிறுத்தத்தில் இறக்கிவிடுவது, செல்லும் வழியில் வண்டியின் கண்ணாடி வழியே ரேண்டம் செல்ஃபிகளை எடுப்பது. நாம் பயணித்த அந்தச் சாலை நம்முடைய சின்னஞ்சிறு அழகான நினைவுகளை எல்லாம் சுமந்து செல்வது போல் இருந்தது, நமது அருகாமையின் தூய மகிழ்ச்சியைப் பதிவு செய்தது."
     },
     doodle: "camera",
     x: 210, y: 40
