@@ -85,12 +85,12 @@ const slides = [
   {
     id: 4,
     image: img4,
-    location: { en: "Race Course", ta: "ரேஸ் கோர்ஸ்" },
-    title: { en: "Meeting at Race Course", ta: "ரேஸ் கோர்ஸ் சந்திப்பு" },
-    date: { en: "A Quiet Walk", ta: "ஒரு அமைதியான உலா" },
+    location: { en: "Race Course Walkway", ta: "ரேஸ் கோர்ஸ் நடைபாதை" },
+    title: { en: "Random Meet at Race Course", ta: "ரேஸ் கோர்ஸ் சந்திப்பு" },
+    date: { en: "Accompanied by Friend", ta: "நண்பர்களுடன் ஒரு சந்திப்பு" },
     description: {
-      en: "A quiet stroll under the canopy of trees at Coimbatore Race Course. Finding a corner to talk, laughing at silly jokes, and feeling the comfort of your presence.",
-      ta: "கோவை ரேஸ் கோர்ஸ் மர நிழல்களின் கீழ் ஒரு அமைதியான உலா. பேசுவதற்கு ஒரு நல்ல இடம், நமது சின்னஞ்சிறு சிரிப்புகள், உனது அருகில் இருக்கும் போது கிடைத்த அந்த நிம்மதி."
+      en: "Just a random meet at Race Course, accompanied by your friend near you. Even with them around, it was filled with good moments—taking pictures of us, laughter-filled conversations, and teasing you along the way. Such a fun and sweet day.",
+      ta: "உனது தோழியுடன் ரேஸ் கோர்ஸில் நாம் எதேச்சையாகச் சந்தித்த தருணம். தோழி அருகில் இருந்தபோதிலும், அது பல அழகான நினைவுகள் நிறைந்ததாக இருந்தது—நமது புகைப்படங்கள், சிரிப்பு உரையாடல்கள் மற்றும் வழியெங்கும் உன்னைக் கிண்டல் செய்தது என மிகவும் மகிழ்ச்சியான நாள்."
     },
     doodle: "tree",
     x: 290, y: 15
