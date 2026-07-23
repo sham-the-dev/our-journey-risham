@@ -193,8 +193,8 @@ const slides = [
     title: { en: "Lunch Date & First Side Hug", ta: "மதிய உணவுச் சந்திப்பும் முதல் அணைப்பும்" },
     date: { en: "First Lunch Outside", ta: "முதல் வெளி மதிய உணவு" },
     description: {
-      en: "The first time we ate lunch outside together, followed by the time we spent near the 'I Love Kovai' sign. Sitting there, listening to your serious talks, and that unforgettable moment—my very first time giving you a side hug. A day of deep talks and sweet warmth.",
-      ta: "முதன்முறையாக நாம் வெளியில் ஒன்றாக மதிய உணவு சாப்பிட்ட தருணம், அதன் பிறகு 'ஐ லவ் கோவை' பலகை அருகில் நாம் செலவிட்ட நேரம். அங்கு அமர்ந்து, உனது ஆழமான பேச்சுகளைக் கேட்டுக் கொண்டே, உன்னை முதன்முறையாக நான் ஒரு பக்கவாட்டில் அணைத்துக் கொண்ட (side hug) அந்த மறக்க முடியாத அழகான நொடி."
+      en: "The first time we ate lunch outside together, followed by the time we spent near the 'I Love Kovai' spot. Sitting there, listening to your serious talks, and that unforgettable moment—my very first time giving you a side hug. A day of deep talks and sweet warmth.",
+      ta: "முதன்முறையாக நாம் வெளியில் ஒன்றாக மதிய உணவு சாப்பிட்ட தருணம், அதன் பிறகு 'ஐ லவ் கோவை' இடம் அருகில் நாம் செலவிட்ட நேரம். அங்கு அமர்ந்து, உனது ஆழமான பேச்சுகளைக் கேட்டுக் கொண்டே, உன்னை முதன்முறையாக நான் ஒரு பக்கவாட்டில் அணைத்துக் கொண்ட (side hug) அந்த மறக்க முடியாத அழகான நொடி."
     },
     doodle: "sparkle",
     x: 930, y: 20
