@@ -297,6 +297,9 @@ function App() {
   // Screen Width State for dynamic pagination
   const [isMobile, setIsMobile] = useState(false)
 
+  // Lightbox overlay state for fullscreen images
+  const [lightboxImage, setLightboxImage] = useState(null)
+
   // Ref for audio element
   const audioRef = useRef(null)
 
@@ -745,7 +748,14 @@ function App() {
                   >
                     <div className={`tape tape-top-left ${leftWashi}`}></div>
                     <div className={`tape tape-top-right ${rightWashi}`}></div>
-                    <div className="polaroid-image-container">
+                    <div 
+                      className="polaroid-image-container"
+                      onClick={() => {
+                        playClickSound()
+                        setLightboxImage(activeSlide.image)
+                      }}
+                      style={{ cursor: 'zoom-in' }}
+                    >
                       <img 
                         src={activeSlide.image} 
                         alt={activeSlide.title[lang]} 
@@ -830,7 +840,14 @@ function App() {
                   >
                     <div className={`tape tape-top-left ${leftWashi}`}></div>
                     <div className={`tape tape-top-right ${rightWashi}`}></div>
-                    <div className="polaroid-image-container">
+                    <div 
+                      className="polaroid-image-container"
+                      onClick={() => {
+                        playClickSound()
+                        setLightboxImage(activeSlide.image)
+                      }}
+                      style={{ cursor: 'zoom-in' }}
+                    >
                       <img 
                         src={activeSlide.image} 
                         alt={activeSlide.title[lang]} 
@@ -1126,6 +1143,38 @@ function App() {
               : 'பக்கங்களை திருப்ப ஸ்வைப் செய்யவும் அல்லது அம்பு விசைகளைப் பயன்படுத்தவும்'
             }
           </span>
+        </div>
+      )}
+
+      {/* Lightbox full screen modal overlay */}
+      {lightboxImage && (
+        <div 
+          className="lightbox-overlay"
+          onClick={() => {
+            playClickSound()
+            setLightboxImage(null)
+          }}
+        >
+          <button 
+            className="lightbox-close-btn"
+            onClick={(e) => {
+              e.stopPropagation()
+              playClickSound()
+              setLightboxImage(null)
+            }}
+            aria-label="Close Fullscreen"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <img 
+            src={lightboxImage} 
+            alt="Fullscreen memory sketch" 
+            className="lightbox-image" 
+            onClick={(e) => e.stopPropagation()}
+          />
         </div>
       )}
     </div>
