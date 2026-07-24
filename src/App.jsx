@@ -51,7 +51,7 @@ const slides = [
     date: { en: "The First Meet", ta: "முதல் சந்திப்பு" },
     description: {
       en: "Our story started in the bustling streets of RS Puram. Walking around, sharing shy smiles, and finding our rhythm in the heart of Coimbatore. It was just the beginning of something beautiful.",
-      ta: "நம் காதல் கதை ஆர்.எஸ்.புரத்தின் பரபரப்பான தெருக்களில் தொடங்கியது. கூச்ச சுபாவமுள்ள புன்னகைகள், கோவை இதயப்பகுதியில் நாம் ஒன்றிணைந்த தருணம். ஒரு அழகான பயணத்தின் ஆரம்பம்."
+      ta: "நமக்கான கதை ஆர்.எஸ்.புரத்தின் பரபரப்பான தெருக்களில் தொடங்கியது. அங்கும் இங்கும் உலாவி, கூச்ச சுபாவமுள்ள புன்னகைகளைப் பகிர்ந்து, கோவையின் இதயப்பகுதியில் நமது அலைவரிசையைக் கண்டறிந்தோம். அது ஒரு அழகான பயணத்தின் ஆரம்பம் மட்டுமே."
     },
     doodle: "heart",
     x: 50, y: 30
@@ -64,7 +64,7 @@ const slides = [
     date: { en: "Office Ride & Sungam", ta: "அலுவலகப் பயணம் & சுங்கம்" },
     description: {
       en: "The first time I asked you to join me on my bike to head to the office together. That sweet, nervous excitement of riding side-by-side, followed by me dropping you off at the Sungam bus stop later that day. A simple journey that marked the beginning of our daily shared moments.",
-      ta: "அலுவலகத்திற்கு ஒன்றாகச் செல்ல எனது வண்டியில் உன்னை வரும்படி நான் முதன்முதலாகக் கேட்ட தருணம். அந்தப் பதற்றமும் மகிழ்ச்சியும் நிறைந்த பயணம், அன்றைய தினமே உன்னை நான் சுங்கம் பேருந்து நிறுத்தத்தில் இறக்கிவிட்டது. நம் தினசரி வாழ்க்கையை அழகாக்கிய ஒரு எளிய பயணம்."
+      ta: "அலுவலகத்திற்கு ஒன்றாகச் செல்ல எனது பைக் சவாரியில் என்னோடு இணைய நான் உன்னை முதன்முதலாகக் கேட்ட தருணம். அருகருகே அமர்ந்து பயணித்த அந்த இனிமையான, பதற்றம் கலந்த உற்சாகம், அதைத் தொடர்ந்து அன்றைய தினமே உன்னை சுங்கம் பேருந்து நிறுத்தத்தில் நான் இறக்கிவிட்டது. நம் தினசரி பகிர்வுத் தருணங்களின் தொடக்கத்தைக் குறித்த ஒரு எளிய பயணம்."
     },
     doodle: "bike",
     x: 130, y: 20
@@ -73,11 +73,11 @@ const slides = [
     id: 3,
     image: img3,
     location: { en: "Gandhipuram Bus Stop", ta: "காந்திபுரம் பேருந்து நிறுத்தம்" },
-    title: { en: "Gandhipuram Drop-offs & Mirror Selfies", ta: "காந்திபுரம் பயணங்கள் & செல்ஃபிகள்" },
-    date: { en: "Road of Little Moments", ta: "சின்னஞ்சிறு நினைவுகள் நிறைந்த சாலை" },
+    title: { en: "Gandhipuram Drop-offs & Mirror Selfies", ta: "காந்திபுரத்தில் இறக்கிவிடுதலும் கண்ணாடி செல்ஃபிகளும்" },
+    date: { en: "Road of Little Moments", ta: "சின்னஞ்சிறு தருணங்களின் சாலை" },
     description: {
       en: "Dropping you off at the Gandhipuram bus stop, capturing random selfies in our vehicle's mirror along the way. The road itself felt like it was carrying all of our sweet, little moments together, capturing the pure joy of being side-by-side.",
-      ta: "உன்னை காந்திபுரம் பேருந்து நிறுத்தத்தில் இறக்கிவிடுவது, செல்லும் வழியில் வண்டியின் கண்ணாடி வழியே ரேண்டம் செல்ஃபிகளை எடுப்பது. நாம் பயணித்த அந்தச் சாலை நம்முடைய சின்னஞ்சிறு அழகான நினைவுகளை எல்லாம் சுமந்து செல்வது போல் இருந்தது, நமது அருகாமையின் தூய மகிழ்ச்சியைப் பதிவு செய்தது."
+      ta: "உன்னை காந்திபுரம் பேருந்து நிறுத்தத்தில் இறக்கிவிடுவது, செல்லும் வழியில் நமது வண்டியின் கண்ணாடியில் எதேச்சையான செல்ஃபிகளை எடுப்பது. நாம் பயணித்த அந்தச் சாலை, நமது இனிமையான சின்னஞ்சிறு தருணங்கள் அனைத்தையும் சுமந்து செல்வது போலவும், நாம் அருகருகே இருப்பதன் தூய மகிழ்ச்சியைப் படம்பிடிப்பது போலவும் இருந்தது."
     },
     doodle: "camera",
     x: 210, y: 40
@@ -86,11 +86,11 @@ const slides = [
     id: 4,
     image: img4,
     location: { en: "Race Course Walkway", ta: "ரேஸ் கோர்ஸ் நடைபாதை" },
-    title: { en: "Random Meet at Race Course", ta: "ரேஸ் கோர்ஸ் சந்திப்பு" },
-    date: { en: "Accompanied by Friend", ta: "நண்பர்களுடன் ஒரு சந்திப்பு" },
+    title: { en: "Random Meet at Race Course", ta: "ரேஸ் கோர்ஸில் ஒரு எதேச்சையான சந்திப்பு" },
+    date: { en: "Accompanied by Friend", ta: "தோழியின் துணையோடு" },
     description: {
       en: "Just a random meet at Race Course, accompanied by your friend near you. Even with her around, it was filled with good moments—taking pictures of us, laughter-filled conversations, and teasing you along the way. Such a fun and sweet day.",
-      ta: "உனது தோழியுடன் ரேஸ் கோர்ஸில் நாம் எதேச்சையாகச் சந்தித்த தருணம். தோழி அருகில் இருந்தபோதிலும், அது பல அழகான நினைவுகள் நிறைந்ததாக இருந்தது—நமது புகைப்படங்கள், சிரிப்பு உரையாடல்கள் மற்றும் வழியெங்கும் உன்னைக் கிண்டல் செய்தது என மிகவும் மகிழ்ச்சியான நாள்."
+      ta: "ரேஸ் கோர்ஸில் ஒரு எதேச்சையான சந்திப்பு, அருகில் உனது தோழியும் இருந்தாள். அவள் அருகில் இருந்தபோதும், அந்தத் தருணம் பல நல்ல நினைவுகளால் நிறைந்திருந்தது—புகைப்படங்கள் எடுத்தது, சிரிப்பு நிறைந்த உரையாடல்கள் மற்றும் வழியெங்கும் உன்னை வம்பிலுத்தது என. மிகவும் வேடிக்கையான, இனிமையான நாள்!"
     },
     doodle: "tree",
     x: 290, y: 15
@@ -99,11 +99,11 @@ const slides = [
     id: 5,
     image: img5,
     location: { en: "Gandhipuram Eateries", ta: "காந்திபுரம் சாட் கடை" },
-    title: { en: "Chat & Vadapav Date", ta: "சாட் & வடாபாவ் சந்திப்பு" },
-    date: { en: "Selfies & Drop-offs", ta: "செல்ஃபியும் விடைபெறலும்" },
+    title: { en: "Chat & Vadapav Date", ta: "சாட் & வடாபாவ் டேட்" },
+    date: { en: "Selfies & Drop-offs", ta: "செல்ஃபிகளும் இறக்கிவிடுதலும்" },
     description: {
       en: "Sharing plates of chat and vadapav together, talking about everything under the sun, and capturing a sweet selfie together before dropping you off. Food and moments always feel better when shared with you.",
-      ta: "சாட் தட்டுகளையும் வடாபாவையும் ஒன்றாகப் பகிர்ந்து கொண்டு, உன்னை இறக்கிவிடும் முன்பு ஒரு அழகான செல்ஃபி எடுத்துக்கொண்ட தருணம். உன்னோடு பகிரும்போதுதான் உணவும் நினைவுகளும் இன்னும் சுவையானதாக மாறுகின்றன."
+      ta: "சாட் மற்றும் வடாபாவ் தட்டுகளைப் பகிர்ந்து கொண்டு, உலக விஷயங்கள் அனைத்தையும் பேசிக்கொண்டே, உன்னை இறக்கிவிடும் முன் ஒரு இனிமையான செல்ஃபி எடுத்த தருணம். உன்னோடு பகிரும்போது உணவும் இந்தத் தருணங்களும் எப்போதும் இன்னும் அழகாக உணர்கின்றன."
     },
     doodle: "food",
     x: 370, y: 35
@@ -112,11 +112,11 @@ const slides = [
     id: 6,
     image: img6,
     location: { en: "Park", ta: "பூங்கா" },
-    title: { en: "First Park Date Together", ta: "முதல் பூங்கா சந்திப்பு" },
+    title: { en: "First Park Date Together", ta: "பூங்காவில் நமது முதல் டேட்" },
     date: { en: "Freshness & Fun", ta: "புத்துணர்ச்சியும் விளையாட்டுத்தனமும்" },
     description: {
       en: "Our very first park date together, sharing the beautiful freshness of the park environment. We enjoyed ourselves like two kids on a vacation, filling the evening with endless talking and laughter on that wooden bench.",
-      ta: "நம்முடைய முதல் பூங்கா சந்திப்பு, பூங்காவின் அழகான புத்துணர்ச்சியோடு. விடுமுறையில் இருக்கும் இரண்டு குழந்தைகளைப் போல நாம் இருவரும் மாலையில் எல்லையற்ற பேச்சுகளாலும் சிரிப்புகளாலும் அந்த மர பெஞ்சில் அமர்ந்து மகிழ்ந்தோம்."
+      ta: "பூங்காவில் நமது முதல் டேட், அந்தப் பசுமையான சூழலின் புத்துணர்ச்சியைப் பகிர்ந்துகொண்டோம். விடுமுறையில் இருக்கும் இரு குழந்தைகளைப் போல நாம் மகிழ்ந்தோம்; அந்த மர பெஞ்சில் அமர்ந்து எல்லையற்ற உரையாடல்களாலும் சிரிப்பாலும் மாலையை நிரப்பினோம்."
     },
     doodle: "flower",
     x: 450, y: 20
@@ -142,7 +142,7 @@ const slides = [
     date: { en: "Through Thick & Thin", ta: "இன்பத்திலும் துன்பத்திலும்" },
     description: {
       en: "A gentle morning ride when you weren't feeling your best. Holding you close, trying to soothe your pain, and realizing that loving you means being there in every high and low.",
-      ta: "உனக்கு உடல்நிலை சரியில்லாத ஒரு காலைப் பொழுதில் ஒரு மென்மையான பைக் பயணம். உன்னை அரவணைத்து, உன் வலியைப் போக்க முயன்ற போது, காதலின் உண்மையான அர்த்தத்தை உணர்ந்தேன்."
+      ta: "உனக்கு உடல்நிலை சரியாக இல்லாத ஒரு காலைப் பொழுதில் ஒரு மென்மையான பைக் பயணம். உன்னை அருகில் அணைத்து, உன் வலியைப் போக்க முயன்று, உன்னை நேசிப்பது என்பது எல்லா ஏற்றத்தாழ்வுகளிலும் உன்னோடு துணையாய் இருப்பது என்பதை உணர்ந்த தருணம்."
     },
     doodle: "bandaid",
     x: 610, y: 15
@@ -152,10 +152,10 @@ const slides = [
     image: img9,
     location: { en: "Night Road Travel", ta: "இரவு நேரப் பயணம்" },
     title: { en: "Under the Starlit Sky", ta: "விண்மீன்கள் நிறைந்த வானின் கீழ்" },
-    date: { en: "Midnight Cruising", ta: "நள்ளிரவுப் பயணம்" },
+    date: { en: "Midnight Cruising", ta: "நள்ளிரவு உலா" },
     description: {
       en: "Cruising down the city roads at night under the cool breeze, your arms wrapped around me. Nothing else mattered but the road ahead and the warmth of your embrace.",
-      ta: "குளிர்ந்த காற்றில் இரவு நேரத்தில் உனது கைகள் என்னை இறுக்கமாக அணைத்துக்கொள்ள வண்டியில் பயணித்த தருணம். நாம் செல்லும் பாதையும் உன் உடலின் வெப்பமும் மட்டுமே அப்போது எனக்குத் தேவைப்பட்டது."
+      ta: "குளிர்ந்த காற்றில், இரவில் நகரச் சாலைகளில் வலம் வரும்போது, உனது கைகள் என்னை அணைத்திருக்க. முன்னாலுள்ள சாலையும், உன் அணைப்பின் இதமும் தவிர வேறு எதுவும் முக்கியமாகத் தோன்றவில்லை."
     },
     doodle: "bike",
     x: 690, y: 40
@@ -164,11 +164,11 @@ const slides = [
     id: 10,
     image: img10,
     location: { en: "Gandhipuram", ta: "காந்திபுரம்" },
-    title: { en: "The Rush of Gandhipuram", ta: "காந்திபுரத்தின் பரப்பரப்பு" },
+    title: { en: "The Rush of Gandhipuram", ta: "காந்திபுரத்தின் பரபரப்பு" },
     date: { en: "City Lights", ta: "நகர விளக்குகள்" },
     description: {
       en: "Navigating the busy crowds and vibrant shops of Gandhipuram. No matter how chaotic the city got, being with you made everything feel perfectly peaceful.",
-      ta: "காந்திபுரத்தின் கூட்ட நெரிசலிலும் துடிப்பான கடைகளிலும் நாம் உலா வந்தது. நகரம் எவ்வளவு பரபரப்பாக இருந்தாலும், உன்னுடன் இருக்கும் போது எல்லாமே அமைதியாகத் தோன்றியது."
+      ta: "காந்திபுரத்தின் பிஸியான கூட்டத்தையும் துடிப்பான கடைகளையும் கடந்து செல்வது. நகரம் எவ்வளவு பரபரப்பாக இருந்தாலும், உன்னோடு இருப்பது எல்லாவற்றையும் முற்றிலும் அமைதியானதாக உணரச் செய்தது."
     },
     doodle: "coffee",
     x: 770, y: 25
@@ -177,11 +177,11 @@ const slides = [
     id: 11,
     image: img11,
     location: { en: "Roadside Snacks", ta: "சாலையோர உணவு" },
-    title: { en: "Discovering Muttai Bhel Together", ta: "முட்டை பேல் ருசித்தது" },
-    date: { en: "Coimbatore Delicacy", ta: "கோவை ஸ்பெஷல்" },
+    title: { en: "Discovering Muttai Bhel Together", ta: "முதன்முறையாக முட்டை பேல் கண்டறிந்தது" },
+    date: { en: "Coimbatore Delicacy", ta: "கோவையின் சுவை" },
     description: {
       en: "Trying out the famous local Muttai Bhel for the first time. Messy, delicious, and full of laughter. Another culinary memory added to our collection!",
-      ta: "முதன்முறையாக கோவையின் பிரபல முட்டை பேலை ருசித்த தருணம். சிந்திக்கொண்டே, சிரித்துக்கொண்டே சாப்பிட்ட அந்த உணவு, நம் நினைவுகளில் என்றும் சுவையான ஒன்றாக இருக்கும்."
+      ta: "கோவையின் புகழ்பெற்ற முட்டை பேலை முதன்முறையாக ருசித்தது. சிதறியும், சுவைத்தும், சிரிப்பு நிறைந்த உரையாடல்களுடனும்... நமது நினைவுகளின் தொகுப்பில் மற்றுமொரு சுவையான சுவடு!"
     },
     doodle: "food",
     x: 850, y: 35
@@ -190,11 +190,11 @@ const slides = [
     id: 12,
     image: img12,
     location: { en: "I Love Kovai", ta: "ஐ லவ் கோவை" },
-    title: { en: "Lunch Date & First Side Hug", ta: "மதிய உணவுச் சந்திப்பும் முதல் அணைப்பும்" },
-    date: { en: "First Lunch Outside", ta: "முதல் வெளி மதிய உணவு" },
+    title: { en: "Lunch Date & First Side Hug", ta: "மதிய உணவு டேட்டும் முதல் பக்கவாட்டு அணைப்பும்" },
+    date: { en: "First Lunch Outside", ta: "வெளியே நமது முதல் மதிய உணவு" },
     description: {
       en: "The first time we ate lunch outside together, followed by the time we spent near the 'I Love Kovai' spot. Sitting there, listening to your serious talks, and that unforgettable moment—my very first time giving you a side hug. A day of deep talks and sweet warmth.",
-      ta: "முதன்முறையாக நாம் வெளியில் ஒன்றாக மதிய உணவு சாப்பிட்ட தருணம், அதன் பிறகு 'ஐ லவ் கோவை' இடம் அருகில் நாம் செலவிட்ட நேரம். அங்கு அமர்ந்து, உனது ஆழமான பேச்சுகளைக் கேட்டுக் கொண்டே, உன்னை முதன்முறையாக நான் ஒரு பக்கவாட்டில் அணைத்துக் கொண்ட (side hug) அந்த மறக்க முடியாத அழகான நொடி."
+      ta: "நாம் முதன்முறையாக வெளியே மதிய உணவு உண்ட தருணம், அதைத் தொடர்ந்து 'ஐ லவ் கோவை' சின்னத்தின் அருகில் செலவிட்ட நேரம். அங்கு அமர்ந்து, உனது தீவிரமான பேச்சுகளைக் கேட்டுக்கொண்டே... மறக்க முடியாத அந்த நொடி—முதன்முறையாக உன்னை நான் பக்கவாட்டில் அணைத்துக் கொண்டது (side hug). ஆழமான உரையாடல்களும் இனிமையான அரவணைப்பும் நிறைந்த நாள்."
     },
     doodle: "sparkle",
     x: 930, y: 20
